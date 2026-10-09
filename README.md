@@ -11,7 +11,7 @@ Each practical has its own folder containing the program and the screenshot of i
 ## Index of practical
 |NO. | Practical | Folder|
 |:--: |:--: |:-- |
-| 1 | Create a machine based on the Basic Computer architecture |---|
+| 1 | Create a machine based on the Basic Computer architecture |pracatical1|
 |2| Create the Fetch routine of the instruction cycle| Practical_02_Fetch_Routine |
 | 3 | ADD operation on two user-entered numbers| ----|
 | 4 |SUBTTCT operation on two user-entered numbers |---|
