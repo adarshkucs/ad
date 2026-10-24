@@ -8,17 +8,3 @@
 |**Papper**| Computer System Architectuer|
 Simulation of Mono's Basic Computer using **CPU Sim 4.0.11** (Java 8 with JavaFX)
 Each practical has its own folder containing the program and the screenshot of its output.
-## Index of practical
-|NO. | Practical | Folder|
-|:--: |:--: |:-- |
-| 1 | Create a machine based on the Basic Computer architecture |pracatical1|
-|2| Create the Fetch routine of the instruction cycle| Practical_02_Fetch_Routine |
-| 3 | ADD operation on two user-entered numbers| ----|
-| 4 |SUBTTCT operation on two user-entered numbers |---|
-| 5 | Logical operations AND,OR NOT,XOR,NOR,NAND
-| 6 |Memory-reference instructions ADD,LDA,STA,BUN,ISZ |---|
-| 7 |Register-reference instructions CLA,CMA,CME,HLT |---|
-| 8 |Register-reference instructions INC,SPA,SNA,SZE |---|
-| 9 |Register-reference instructions CIR,CIL |---|
-| 10 |Sum of integers until a number is read |---|
-| 11 |Sum of integers until zero is read |---|
