@@ -1,0 +1,17 @@
+
+# Practical 15: Accept a name and handle invalid characters
+def validate_name(name):
+    if not name.strip():
+        raise ValueError("Name cannot be empty.")
+    if not all(character.isalpha() or character.isspace()
+               for character in name):
+        raise ValueError("Name must not contain digits or special characters.")
+    return name
+
+
+try:
+    user_name = input("Enter your name: ")
+    valid_name = validate_name(user_name)
+    print("Valid name:", valid_name)
+except ValueError as error:
+    print("Invalid input:", error)
