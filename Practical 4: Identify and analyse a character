@@ -1,0 +1,25 @@
+Practical 4: Identify and analyse a character
+digit_names = [
+    "ZERO", "ONE", "TWO", "THREE", "FOUR",
+    "FIVE", "SIX", "SEVEN", "EIGHT", "NINE"
+]
+
+ch = input("Enter a character: ")
+
+if len(ch) != 1:
+    print("Enter only one character")
+
+elif ch.isalpha():
+    print("It is a letter")
+
+    if ch.isupper():
+        print("Uppercase")
+    else:
+        print("Lowercase")
+
+elif ch.isdigit():
+    print("It is a numeric digit")
+    print("Digit name:", digit_names[int(ch)])
+
+else:
+    print("It is a special character")
