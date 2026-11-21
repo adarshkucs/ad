@@ -1,0 +1,17 @@
+Practical 6: Swap the first n characters of two strings
+
+s1 = input("Enter first string: ")
+s2 = input("Enter second string: ")
+
+n = int(input("Enter n: "))
+
+if n < 0 or n > len(s1) or n > len(s2):
+    print("Invalid value of n")
+
+else:
+    new_s1 = s2[:n] + s1[n:]
+    new_s2 = s1[:n] + s2[n:]
+
+    print("First string:", new_s1)
+    print("Second string:", new_s2)
+
