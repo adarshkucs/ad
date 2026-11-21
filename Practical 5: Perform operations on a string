@@ -1,0 +1,12 @@
+Practical 5: Perform operations on a string
+text = input("Enter a string: ")
+character = input("Enter the character to search/remove: ")
+
+print("Frequency:", text.count(character))
+
+old_char = input("Enter the character to replace: ")
+new_char = input("Enter the new character: ")
+print("After replacement:", text.replace(old_char, new_char))
+
+print("After removing first occurrence:", text.replace(character, "", 1))
+print("After removing all occurrences:", text.replace(character, ""))
