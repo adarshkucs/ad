@@ -1,0 +1,29 @@
+# Practical 7: Find all starting indices of the second string in the first
+
+def find_indices(first, second):
+    positions = []
+    start = 0
+
+    if second == "":
+        return [-1]
+
+    while True:
+        index = first.find(second, start)
+
+        if index == -1:
+            break
+
+        positions.append(index)
+        start = index + 1
+
+    if positions:
+        return positions
+    else:
+        return [-1]
+
+
+s1 = input("Enter first string: ")
+s2 = input("Enter second string: ")
+
+print("Indices:", find_indices(s1, s2))
+
