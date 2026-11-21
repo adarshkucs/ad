@@ -1,4 +1,6 @@
 # Practical 1: Find the roots of a quadratic equation
+ python 
+
 import cmath
 
 
