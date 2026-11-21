@@ -1,0 +1,27 @@
+# Practical 8: Cubes of even integers in an input list
+items = input("Enter list elements: ").split()
+
+values = []
+
+for item in items:
+    try:
+        values.append(int(item))
+    except ValueError:
+        values.append(item)
+
+# Using for loop
+cubes = []
+
+for x in values:
+    if isinstance(x, int) and x % 2 == 0:
+        cubes.append(x**3)
+
+print("Using for loop:", cubes)
+
+# Using list comprehension
+result = [
+    x**3 for x in values
+    if isinstance(x, int) and x % 2 == 0
+]
+
+print("Using list comprehension:", result)
